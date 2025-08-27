@@ -15,7 +15,7 @@ namespace GGG_Projekt
 
         [DllImport("kernel32.dll", SetLastError = true)]
         static extern IntPtr GetStdHandle(int nStdHandle);
-                                                                                    //Enables ANSI excape code for VS 2022 (colors)
+                                                                                    //Enables ANSI escape code for VS 2022 (colors)
         [DllImport("kernel32.dll")]
         static extern bool GetConsoleMode(IntPtr hConsoleHandle, out uint lpMode);
 

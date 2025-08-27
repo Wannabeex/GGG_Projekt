@@ -68,3 +68,11 @@ C:\Users\MarkertM\Desktop\Personal\Practice\Personal\GGG_Projekt_github\GGG_Proj
 C:\Users\MarkertM\Desktop\Personal\Practice\Personal\GGG_Projekt_github\GGG_Projekt\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.csproj.CoreCompileInputs.cache
 C:\Users\MarkertM\Desktop\Personal\Practice\Personal\GGG_Projekt_github\GGG_Projekt\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.exe
 C:\Users\MarkertM\Desktop\Personal\Practice\Personal\GGG_Projekt_github\GGG_Projekt\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.pdb
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\bin\Debug\GGG_Projekt.exe.config
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\bin\Debug\GGG_Projekt.exe
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\bin\Debug\GGG_Projekt.pdb
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.csproj.AssemblyReference.cache
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.exe.config
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.csproj.CoreCompileInputs.cache
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.exe
+C:\Users\MarkertM\OneDrive - ASYS Automatisierungssysteme GmbH\Desktop\Personal\Practice\Personal\C#\GGG_Projekt_Git\GGG_Projekt\GGG_Projekt\obj\Debug\GGG_Projekt.pdb

@@ -434,12 +434,6 @@ namespace GGG_Projekt
                     dLLoop = false;
                     Console.WriteLine("\n\n\n");
                 }
-                if (map[r, c] == fEndDigit)
-                {
-                    for (int test = 0; test < 13; test++) Console.WriteLine(" ");
-                    MethodClass.ResetWinBoss();
-                    return;
-                }
             }
         }
     }
