@@ -1,0 +1,106 @@
+﻿General:
+
+Still need to conclude playtesting (currently at Plantkin (doesnt keep poison when missing))
+Maybe Overload weapon and trinket methods to avoid having 1 object with 100 parameters. //Implemented for now
+Add Dictionary to Status.sC[] and PlayerMoveset (isG, etc.) see EnemyMoveset.
+
+
+MapTravel:
+
+Movement gets confused when fight starts (thinks it moved when it didnt).	//Fixed. Problem with order of code 
+Random Text spacing issues when encounter starts.	//Fixed. Old code residue rolled for Encounter after n, e, s , w path
+Coloring Last cell in map still doesnt work. //Fixed
+
+
+Combat:
+
+Random Text offset (row -1) //Fixed 
+Killing yourself will result in slight corruption due to the game not expecting you to die on your turn.
+/Optional. Change Reward so that WIN text appears before choosing weapon. //Implemented
+Seen one time not recreated Goblin Warlock used Dark Bolt to heal/pray until mana ran out. //Outdated issue
+When starting new floor gets a index out of bounds exception.	//Fixed gStartFlag had to be true for some reason
+Charm Timer might not work properly.
+For the time being unique boss attacks only apply to attacktype 1 (Spells)
+Icy Winds needs to be calculated in attacktype 1 (Spell) even when the enemy uses attacktype 0 (hit) //Implemented
+When "Stunned" can't use inventory and other issues. //Fixed
+Line 148 yet to see logistic effects of this change. //Working
+Structure change in initializing the enemies not yet working. //Fixed
+Goblin Warlock, Assassin and King broken. //Fixed (Forgot space in name)
+Merfolk Siren broken. //Fixed
+Guard may get applied through stun. //Fixed
+Killing enemy while stunned will bug out combat.
+
+
+CombatText:
+
+Inventory sometimes breaks no idea why. //Possibly Fixed
+
+
+PlayerMoveset:
+
+Changes made to the Combat System have yet to be fixed and adjusted. //Fixed.
+Opening inventory after attack breaks for some reason. //Fixed (pAttacktype wasn't being changed so it repeated an attack)
+
+
+Status:
+
+Change debuff back to status //Implemented
+Status class still an unsolved mystery.
+
+
+Reward, Items, Inventory:
+
+Weapons etc. should be made in Items, added to a list in inventory and have parameter inpossession changed in Reward to finally add a dmg modifier to Combat. //Implemented (outdated issue)
+Weapons break after some time (gives effect of last weapon and unable to switch also doesnt remember switching). //Fixed.
+
+
+Enemies and Bosses:
+
+Need to add Plantkin + subspecies and bosses for each race. //Added
+	->Bosses missing.
+		->Alpha Red Wolf (summons minions -> Fight 1v1 (Battle doesnt end after eH=0))
+		->Ogre Warchief (1st Phase Mage -> 2nd Phase Meele (same mechanic as above))
+Adjust Plantkin Sunflower. //Adjusted
+Plantkin Goliath added, Bugfixes. //Fixed
+	-> Overhaul needed.
+Change back Temporary cases in Encounter and Combat.
+Fix Plantkin Goliath (Bind seems to be somewhat broken).
+
+
+ERRORS:
+-Multiple Errors to be fixed //Fixed
+
+------------Adding Enemies-------------
+Add in:
+-Encounter
+-EnemyMoveset
+-Combat
+DONT forget to link the right Methods.
+---------------------------------------
+
+----------Adding Boss Enemies----------
+Above also applies tho this.
+With Addition in Combat (Unique Boss
+Damage Calculator)
+---------------------------------------
+
+---------Adding Enemy Attacks----------
+Add in:
+-EnemyMoveset
+-Combat (look for right mFlag Type)
+---------------------------------------
+
+------------------------------Adding Weapons-------------------------------
+Add in:
+-Items (Add Weapons to List in Items)
+-Reward (Add Chance to obtain in Reward and add option to choose weapon)
+-Weapons (If needed add parameters to Weapons, use Overloaded Methods to add
+parameters)
+---------------------------------------------------------------------------
+
+-----------------------------Adding Trinkets-------------------------------
+Add in:
+-Items (Add Trinket object to Items)
+-Reward (Add Chance to obtain in Reward)
+-Trinkets (Add overloaded Method with parameters)
+---------------------------------------------------------------------------
